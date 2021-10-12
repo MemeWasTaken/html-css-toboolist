@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-html{
-    width: 1125px;
+body{
+    margin: 0 auto;
+    width: 1123px;
 }
 
 /* Section Logo & Title */
@@ -24,3 +25,18 @@ header h1{
     padding-left: 7px;
 }
 /* /Section Logo & Title */
+
+main{
+    background-color: #f6f8f9;
+    height: 705px;
+}
+
+.container{
+    background-color: crimson;
+    border-radius: 7px;
+    width: 63.5%;
+    height: 79%;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
