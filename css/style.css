@@ -1,3 +1,4 @@
+/* Layout base */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@ body{
     margin: 0 auto;
     width: 1123px;
 }
+/* /Layout base */
+
 
 /* Section Logo & Title */
 .logo{
@@ -40,18 +43,28 @@ main{
     height: 100%;
 }
 
+/* Navigation Section */
 nav{
     line-height: 3em;
     padding-left: 50px;
+    border-bottom: 2px solid #f6f8f9;
 }
 
 button{
-    height: 20px;
-    width: 54px;
-    color: white;
-    background-color: #47adf1;
-    appearance: none;
-    text-rendering: auto;
-    border: 0px;
     border-radius: 7px;
 }
+button.task{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: #47adf1;
+    border: 0;
+}
+button.section{
+    height: 25px;
+    width: 85px;
+    color: #dadde0;
+    background-color: white;
+    border: 1px solid #dadde0;
+}
+/* /Navigation Section */
