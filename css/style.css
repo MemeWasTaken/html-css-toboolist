@@ -38,33 +38,103 @@ main{
 .container{
     display: inline-block;
     background-color: white;
-    border-radius: 7px;
     width: 100%;
-    height: 100%;
+    height: 109.5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 7px;
 }
 
 /* Navigation Section */
 nav{
     line-height: 3em;
-    padding-left: 50px;
     border-bottom: 2px solid #f6f8f9;
 }
 
-button{
-    border-radius: 7px;
+.addButton{
+    border-radius: 6px;
+    height: 25px;
 }
 button.task{
-    height: 25px;
-    width: 70px;
+    width: 78px;
     color: white;
     background-color: #47adf1;
     border: 0;
 }
 button.section{
-    height: 25px;
-    width: 85px;
+    width: 90px;
     color: #dadde0;
     background-color: white;
     border: 1px solid #dadde0;
 }
 /* /Navigation Section */
+
+/* To Do List Section */
+
+.toDoList{
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+}
+
+.outSideList{
+    margin-left: 30px;
+    list-style-type: none;
+    list-style-image: url(../img/sortDown24.png);
+    font-family: Roboto;
+}
+
+.inSideLists{
+    margin-left: 30px;
+    list-style-type: none;
+    list-style-image:url(../img/checkBoolean.png);
+    font-family: Roboto;
+    display: inline-block;
+    line-height: 50px;  
+}
+
+.x{
+    list-style-image: url(../img/wrongBoolean.png);
+}
+/* To Do List Section */
+
+/* Search tag */
+.tags{
+    border-radius: 8.7px;
+    height: 22px;
+    color: white;
+    font-family: Roboto;
+    font-size: 0.65em;
+    border: 0;
+}
+
+.editorial{
+    background-color: #45abe9;
+    width: 54px;
+}
+
+.goals{
+    background-color: #9c72e4;
+    width: 58px;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+    width: 64px;
+}
+
+.mobile{
+    background-color: #f29e33;
+    width: 44px;
+}
+
+.website{
+    background-color: #d863a0;
+    width: 50px;
+}
+
+.sales{
+    background-color: #b0c926;
+    width: 42px;
+}
+/* /Search tag */
