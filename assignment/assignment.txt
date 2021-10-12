@@ -1,2 +1,4 @@
-Exercise: 
-repository: 
+Exercise: Toboolist
+repository: html-css-toboolist
+
+Ricreiamo una TodoList seguendo il layout in allegato.
