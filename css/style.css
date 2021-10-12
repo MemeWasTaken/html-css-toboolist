@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 1125px;
+}
+
+/* Section Logo & Title */
+.logo{
+    vertical-align: middle;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2em;
+    font-family: Roboto;
+}
+
+.padding-logo{
+    padding-left: 7px;
+}
+/* /Section Logo & Title */
