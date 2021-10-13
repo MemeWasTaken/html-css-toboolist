@@ -41,8 +41,8 @@ main{
 
 /* Navigation Section */
 nav{
-padding: 0.7em 3em 0.5em 3.2em;
-border-bottom: 1px solid #F6F8F9;
+    padding: 0.7em 3em 0.5em 3.2em;
+    border-bottom: 1px solid #F6F8F9;
 }
 
 .btn-nav{
@@ -102,6 +102,7 @@ span{
     font-size: 0.8em;
     padding: 0.3em 0.3em;
     line-height: 0.8em;
+    margin-right: 0.3em;
 }
 
 .check{
@@ -115,5 +116,28 @@ span{
 }
 /* /Inner List */
 /* /Outer List */
+
+/* Tags Ricerca */
+form{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-tag{
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 1em;
+    padding: 5px 10px;
+    font-size: 0.6em;
+}
+
+.editorial{background-color: #09A9ED;}
+.goal{background-color: #AB5DE6;}
+.recruiting{background-color: #2CC6AB;}
+.mobile{background-color: #FF9B00;}
+.website{background-color: #EC4A9D;}
+.sale{background-color: #A3D116;}
+/* /Tags Ricerca */
 
 /* /Main Section */
