@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+main.add-task{
+    background-color: White;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 0.75em;
+    height: 567.406px;
+}
+
+.task-name{
+    display: inline-block;
+    width: 70%;
+    height: 2em;
+    font-size: 3em;
+    margin: 10px 162px;
+    border: 0px;
+
+}
+
+.task-name:active{
+    border: 0px;
+}

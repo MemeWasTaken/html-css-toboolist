@@ -41,8 +41,13 @@ main{
 
 /* Navigation Section */
 nav{
-    padding: 0.7em 3em 0.5em 3.2em;
+    padding: 0.7em 3em 0.7em 3.2em;
     border-bottom: 1px solid #F6F8F9;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-nav{
@@ -139,5 +144,4 @@ form{
 .website{background-color: #EC4A9D;}
 .sale{background-color: #A3D116;}
 /* /Tags Ricerca */
-
 /* /Main Section */
