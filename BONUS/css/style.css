@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    background-color: #C4CBD0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Logo & Title */
+header{
+    line-height: auto;
+    background-color: white;
+    padding: 11px 20px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: 2.3em;
+}
+/* /Logo & Title */
+
